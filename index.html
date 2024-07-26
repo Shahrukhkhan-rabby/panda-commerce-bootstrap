@@ -9,7 +9,7 @@
   <body>
     <!-- header start -->
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="logo.png" alt="" />
@@ -31,13 +31,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" href="#Shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Backpack</a>
+                <a class="nav-link" href="#Backpack">Backpack</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Subscribe</a>
+                <a class="nav-link" href="#Subscribe">Subscribe</a>
               </li>
             </ul>
           </div>
@@ -157,7 +157,8 @@
           </div>
         </div>
       </section>
-      <section class="container">
+      <!-- shoes -->
+      <section class="container" id="Shoes">
         <h2>Shoes</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -171,7 +172,9 @@
                   longer.
                 </p>
               </div>
-              <div class="m-3"><button class="btn btn-warning">Buy Now</button></div>
+              <div class="m-3">
+                <button class="btn btn-warning">Buy Now>></button>
+              </div>
             </div>
           </div>
           <div class="col">
@@ -184,7 +187,9 @@
                   additional content.
                 </p>
               </div>
-              <div class="m-3"><button class="btn btn-warning">Buy Now</button></div>
+              <div class="m-3">
+                <button class="btn btn-warning">Buy Now>></button>
+              </div>
             </div>
           </div>
           <div class="col">
@@ -198,12 +203,15 @@
                   content than the first to show that equal height action.
                 </p>
               </div>
-              <div class="m-3"><button class="btn btn-warning">Buy Now</button></div>
+              <div class="m-3">
+                <button class="btn btn-warning">Buy Now>></button>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="container mt-5">
+      <!-- bag -->
+      <section class="container my-5" id="Backpack">
         <h2>Backpack</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -217,7 +225,9 @@
                   longer.
                 </p>
               </div>
-              <div class="m-3"><button class="btn btn-warning">Buy Now</button></div>
+              <div class="m-3">
+                <button class="btn btn-warning">Buy Now>></button>
+              </div>
             </div>
           </div>
           <div class="col">
@@ -230,7 +240,9 @@
                   additional content.
                 </p>
               </div>
-              <div class="m-3"><button class="btn btn-warning">Buy Now</button></div>
+              <div class="m-3">
+                <button class="btn btn-warning">Buy Now>></button>
+              </div>
             </div>
           </div>
           <div class="col">
@@ -244,13 +256,27 @@
                   content than the first to show that equal height action.
                 </p>
               </div>
-              <div class="m-3"><button class="btn btn-warning">Buy Now</button></div>
+              <div class="m-3">
+                <button class="btn btn-warning">Buy Now>></button>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- Subscribe        -->
+      <section style="height: 300px;" id="Subscribe" class="container bg-info d-flex justify-content-center align-items-center rounded-3">
+<DIV>
+  <h1>LET'S STAY IN TOUCH</h1>
+<p>Get updates on sales, specials and more</p>
+<input type="text" placeholder="Your Email">
+    <br>
+<button class="btn btn-warning">SUBMIT</button>
+</DIV>
+</section>
     </main>
-    <footer></footer>
+    <footer class="mt-5 text-center">
+<p><small>©2020. Panda Commerce. All rights reserved. Sofia Bulgaria</small></p>
+    </footer>
 
     <script src="bootstrap.bundle.min.js"></script>
   </body>
