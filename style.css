@@ -1,0 +1,16 @@
+.info-background{
+    background-color: #fceae7;
+}
+.categories img{
+    width: 100px;
+}
+.bag-background{
+    background-color: #D970D6;
+}
+.btn-buy{
+    color: white;
+    border-radius: 8px;
+    padding: 9px 25px;
+    border: none;
+    background-color: #FF4990;
+}
